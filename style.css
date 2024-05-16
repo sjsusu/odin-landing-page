@@ -18,8 +18,12 @@ p {
     flex: none;
 }
 
+.header-link {
+    width: 25px;
+}
+
 img {
-    width: 350px;
+    width: 450px;
     height: auto;
     border-radius: 8px;
     flex-shrink: 0;
@@ -35,7 +39,7 @@ img {
 ul {
     list-style-type: none;
     display: flex;
-    gap: 16px;
+    gap: 25px;
 }
 
 a {
@@ -129,6 +133,7 @@ button {
     padding: 0 10%;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
 }
 
 h3 {
@@ -154,9 +159,52 @@ h3 {
     color: #1F2937;
 }
 
+.quote {
+    text-align: center;
+}
+
 .author {
     align-self: flex-end;
     font-size: 32px;
     font-style: normal;
     font-weight: bold;
+}
+
+/* Block 4 */
+.block-4 {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 10%;
+    padding: 4% 8%;
+    background-color: #ba4e81;
+    border-radius: 8px;
+    color: #F9FAF8;
+}
+
+h4 {
+    margin: 0;
+}
+
+.button {
+    flex-shrink: 0;
+    border: 1px solid #F9FAF8;
+    align-self: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 4%;
+    font-size: 15px;
 }
